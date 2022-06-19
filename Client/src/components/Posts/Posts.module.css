@@ -1,0 +1,10 @@
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2%;
+}
+
+.box {
+  height: auto;
+}

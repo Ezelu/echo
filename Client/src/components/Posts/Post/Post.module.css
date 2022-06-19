@@ -1,0 +1,70 @@
+.overlay {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay h4 {
+  color: purple;
+}
+
+.overlay i {
+  color: black;
+}
+
+.overlay i {
+  font-weight: lighter;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5%;
+}
+
+.cardActions p {
+  font-size: 0.9em;
+}
+
+.details {
+  padding: 0% 5%;
+  color: purple;
+  text-align: right;
+}
+
+.content {
+  padding: 0% 5%;
+}
+
+.content p {
+  font-size: 0.9em;
+}
+
+.card {
+  /* border-bottom: 1px solid purple; */
+  box-shadow: 0 0 10px grey;
+}
+
+.card:hover {
+  background: rgba(236, 236, 236, 0.2);
+  cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+  .overlay i {
+    display: block;
+    color: rgb(70, 0, 70)
+  }
+}
