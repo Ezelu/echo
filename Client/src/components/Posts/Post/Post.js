@@ -56,8 +56,8 @@ export default function Post ({ post, set_current_id }) {
               {(post?.name.split(' ')[0].charAt(0)).toUpperCase()}
               {(post?.name.split(' ')[1].charAt(0)).toUpperCase()}
             </Avatar> &nbsp;
-            { post.name } &nbsp;
-            <i> <small> { moment(post.createdAt).fromNow() } </small> </i>
+            <p> { post.name } &nbsp; <br />
+            <i> <small> { moment(post.createdAt).fromNow() } </small> </i> </p>
           </h4>
           </div>
 
