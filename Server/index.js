@@ -4,7 +4,10 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import postRoutes from './routes/posts.js'
+import postRoutes from './routes/posts.js';
+import userRoutes from './routes/users.js';
+
+
 
 // Initialize express into app
 const app = express();
@@ -23,7 +26,8 @@ app.get('/', (req, res) => {
   res.status(200).json({message: 'This is the home page'})
 })
 
-app.use('/posts', postRoutes);
+app.use('/posts', postRoutes); // Posts routes
+app.use('/users', userRoutes); // User routes
 
 
 // Connect to database
