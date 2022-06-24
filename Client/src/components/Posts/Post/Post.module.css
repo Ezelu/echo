@@ -6,6 +6,8 @@
 
 .overlay h4 {
   color: purple;
+  display: flex;
+  align-items: center;
 }
 
 .overlay i {
@@ -41,8 +43,8 @@
 }
 
 .card {
-  /* border-bottom: 1px solid purple; */
   box-shadow: 0 0 10px grey;
+  border-left: 10px solid purple;
 }
 
 .card:hover {
@@ -50,7 +52,17 @@
   cursor: pointer
 }
 
-
+.card .button {
+  display: flex;
+  align-items: center;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  justify-content: space-between;
+  cursor: pointer;
+  color: purple;
+  margin-bottom: 2%;
+}
 
 
 
