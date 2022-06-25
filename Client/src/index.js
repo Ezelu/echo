@@ -6,8 +6,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers/index'
-
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
 
@@ -25,4 +24,10 @@ root.render(
   </Provider>  
 );
 
+
+
+
+// If you want your app to work faster offline and load faster, you can change unregister() to register() below. Note, this comes with some pitfalls.
+// Learn more about service workers: https://cra.link/PWA.
+serviceWorkerRegistration.register();
 
