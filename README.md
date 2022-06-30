@@ -1,4 +1,4 @@
-# eCHO
+# ECHO
 Echo is a mini social media web based application that allows yours to make posts, and also react on other peoples posts
 
 ## FEATURES
@@ -13,10 +13,15 @@ Echo is a mini social media web based application that allows yours to make post
 
 ## HOW TO RUN THE WEB APP
 > Fork and clone the repository to your local machine
+
 > Navigate to the client and server folders
+
 > Run npm install on the both of them to install dependencies
+
 > On the Server folder, run npm start to power up the local server on port http://localhost:5000
+
 > On the Client folder, run npm start to power up the local Client server on http://localhost:3000
+
 > Open up http://localhost:3000 on your favorite browser to view the web app :)
 
 Live Link
