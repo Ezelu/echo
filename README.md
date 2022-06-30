@@ -2,6 +2,8 @@
 Echo is a mini social media web based application that allows yours to make posts, and also react on other peoples posts
 
 ## FEATURES
+> PWA
+>
 > Mobile Responsive
 > 
 > Authentication added ( Authomatic and Manual )
